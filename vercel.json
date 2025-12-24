@@ -1,0 +1,14 @@
+{
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "api.ddbrother.me"
+        }
+      ],
+      "destination": "/api/v0/$1"
+    }
+  ]
+}
