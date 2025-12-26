@@ -9,6 +9,16 @@
         }
       ],
       "destination": "/api/v0/$1"
+    },
+    {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "cdn.ddbrother.me"
+        }
+      ],
+      "destination": "/cdn/$1"
     }
   ]
 }
